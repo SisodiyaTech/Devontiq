@@ -51,12 +51,12 @@ export default function Navbar({ onContactClick }) {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-        {/* Brand Lockup using official provided logo files (icon + text logo) */}
-        <a href="#" className="flex items-center gap-3 group select-none">
+        {/* Brand Lockup: Clean, crisp, medium-sized */}
+        <a href="#" className="flex items-center group select-none">
           <img
-            src="/brand/devontiq-lockup.svg"
-            alt="Devontiq Icon"
-            className="w-[500px] h-[500px] sm:w-10 sm:h-10 object-contain transition-all duration-300 group-hover:scale-105 group-hover:drop-shadow-[0_0_12px_rgba(197,255,0,0.45)] group-active:scale-95 shrink-0"
+            src="/brand/devontiq-lockup-clean.svg"
+            alt="Devontiq"
+            className="h-8 sm:h-9 md:h-10 w-auto object-contain transition-all duration-300 group-hover:scale-105 group-hover:drop-shadow-[0_0_15px_rgba(197,255,0,0.45)] group-active:scale-95 shrink-0"
           />
         </a>
 
